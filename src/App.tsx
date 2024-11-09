@@ -9,9 +9,14 @@ import StudentDashboard from "./pages/dashboards/studentDashboard";
 import GroupAppointment from "./pages/forms/Appointments/groupAppointment";
 import SchedulesPage from "@/pages/SchedulesPage";
 import 'react-datepicker/dist/react-datepicker.css'; 
+import SingleAppointment from "./pages/forms/Appointments/singleAppointment";
+import AssignStudents from "./pages/test_jhoan/assignStudents";//AssignStudents
+import InfPersonalDocente from "./pages/test_jhoan/infPersonalDocente";//InfPersonalDocente
+import PruebaServer from "./pages/test_jhoan/TestServer";//__PruebaServer
+import TestStudentForm from "./pages/test_jhoan/studentForm";
+import Forms from "./pages/test_jhoan/forms";
 
 function App() {
-  //MI COMENTARIO G
   return (
     <Routes>
       <Route element={<IndexPage />} path="/" />
@@ -19,12 +24,17 @@ function App() {
       <Route element={<AboutPage />} path="/nosotros" />
       <Route element={<Login />} path="/login" />
       <Route element={<GroupAppointment />} path="/group_appointment" />
+      <Route element={<SingleAppointment />} path="/single_appointment" />
       <Route element={<StudentDashboard />} path="/student_dashboard" />
       <Route element={<SchedulesPage />} path="/schedules" />
+      <Route element={<AssignStudents />} path="/assign_student" />
+      <Route element={<PruebaServer />} path="/test_server" />
+      <Route element={<TestStudentForm />} path="/formNew" />
+      <Route element={<InfPersonalDocente />} path="/form_info_personal_professor" />
+      <Route element={<Forms />} path="/forms" />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
 
 export default App;
-
