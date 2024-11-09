@@ -7,6 +7,8 @@ import NotFound from "@/pages/notFound/notFound";
 import Login from "./pages/auth/login";
 import StudentDashboard from "./pages/dashboards/studentDashboard";
 import GroupAppointment from "./pages/forms/Appointments/groupAppointment";
+import SchedulesPage from "@/pages/SchedulesPage";
+import 'react-datepicker/dist/react-datepicker.css'; 
 import SingleAppointment from "./pages/forms/Appointments/singleAppointment";
 import AssignStudents from "./pages/test_jhoan/assignStudents";//AssignStudents
 import InfPersonalDocente from "./pages/test_jhoan/infPersonalDocente";//InfPersonalDocente
@@ -24,6 +26,7 @@ function App() {
       <Route element={<GroupAppointment />} path="/group_appointment" />
       <Route element={<SingleAppointment />} path="/single_appointment" />
       <Route element={<StudentDashboard />} path="/student_dashboard" />
+      <Route element={<SchedulesPage />} path="/schedules" />
       <Route element={<AssignStudents />} path="/assign_student" />
       <Route element={<PruebaServer />} path="/test_server" />
       <Route element={<TestStudentForm />} path="/formNew" />
