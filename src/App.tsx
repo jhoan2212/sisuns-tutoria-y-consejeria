@@ -7,6 +7,8 @@ import NotFound from "@/pages/notFound/notFound";
 import Login from "./pages/auth/login";
 import StudentDashboard from "./pages/dashboards/studentDashboard";
 import GroupAppointment from "./pages/forms/Appointments/groupAppointment";
+import SchedulesPage from "@/pages/SchedulesPage";
+import 'react-datepicker/dist/react-datepicker.css'; 
 
 function App() {
   //MI COMENTARIO G
@@ -18,6 +20,7 @@ function App() {
       <Route element={<Login />} path="/login" />
       <Route element={<GroupAppointment />} path="/group_appointment" />
       <Route element={<StudentDashboard />} path="/student_dashboard" />
+      <Route element={<SchedulesPage />} path="/schedules" />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
