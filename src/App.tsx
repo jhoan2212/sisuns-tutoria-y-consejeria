@@ -11,7 +11,7 @@ import SchedulesPage from "@/pages/SchedulesPage";
 import 'react-datepicker/dist/react-datepicker.css'; 
 
 function App() {
-  //MI COMENTARIO G
+
   return (
     <Routes>
       <Route element={<IndexPage />} path="/" />
