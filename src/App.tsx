@@ -6,7 +6,6 @@ import AboutPage from "@/pages/about";
 import NotFound from "@/pages/notFound/notFound";
 import Login from "./pages/auth/login";
 
-
 import StudentDashboard from "./pages/dashboards/StudentDashboard";
 import DocenteDashboard from "./pages/dashboards/DocenteDashboard";
 import AdministradorDashboard from "./pages/dashboards/AdministradorDashboard";
