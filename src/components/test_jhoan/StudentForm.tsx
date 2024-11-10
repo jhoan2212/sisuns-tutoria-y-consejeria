@@ -18,9 +18,6 @@ const StudentForm: React.FC = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSelectChange = (value: string) => {
-    setFormData({ ...formData, sexo: value });
-  };
 
   const handleDateChange = (value: any) => {
     setFormData({ ...formData, fechaNacimiento: value });
