@@ -1,4 +1,4 @@
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Button} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Button} from "@nextui-org/react";
 import { ReactNode } from "react";
 import { useNavigate } from "react-router-dom";
 
